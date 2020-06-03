@@ -3,4 +3,4 @@
   publish = "public"
 
 [[plugins]]
-  package = ".."
+  package = "../plugin"
