@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "toml": "^3.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
+    "build": "node site",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

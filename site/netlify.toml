@@ -1,6 +1,9 @@
 [build]
-  command = "echo \"original build command\""
+  command = "npm run build"
   publish = "public"
 
 [[plugins]]
   package = "../plugin"
+  [plugins.inputs]
+    templateRepository = "https://github.com/jlengstorf/example-onboarding-flow.git"
+    requiredEnvVars = ["REQUIRED_ENV_VAR", "BREAK_IT"]
