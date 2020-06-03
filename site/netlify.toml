@@ -1,0 +1,6 @@
+[build]
+  command = "echo \"original build command\""
+  publish = "public"
+
+[[plugins]]
+  package = ".."
