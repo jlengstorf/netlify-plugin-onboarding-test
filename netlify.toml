@@ -1,2 +1,6 @@
 [build]
   base = "site"
+
+[template.environment]
+  REQUIRED_ENV_VAR = "this is required"
+  BREAK_IT = "this is required"
