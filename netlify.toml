@@ -3,7 +3,7 @@
   publish = "site/public"
 
 [[plugins]]
-  package = "../plugin"
+  package = "/plugin"
   [plugins.inputs]
     templateRepository = "https://github.com/jlengstorf/example-onboarding-flow.git"
     requiredEnvVars = ["REQUIRED_ENV_VAR", "BREAK_IT"]

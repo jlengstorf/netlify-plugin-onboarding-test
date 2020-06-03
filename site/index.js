@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 const toml = require('toml');
 
-const tomlFile = fs.readFileSync(`${__dirname}/netlify.toml`, 'utf8');
+const tomlFile = fs.readFileSync(`${__dirname}/../netlify.toml`, 'utf8');
 const netlifyConfig = toml.parse(tomlFile);
 const requiredEnvVars = netlifyConfig.plugins[0].inputs.requiredEnvVars;
 
